@@ -18,13 +18,25 @@ wget -nc https://civitai.com/api/download/models/134104 -O "CoolTones.safetensor
 wget -nc -O CoolTones.jpg https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3c9cf0f2-dba8-4cb2-96e7-efa549408389/width=450/23057-1594367337-1,_lora_%E5%86%B7%E8%B0%83_Cool%20tones_0.8_,.jpeg
 
 
+wget -nc https://civitai.com/api/download/models/99602?type=Model&format=SafeTensor -O "GodPussy1.safetensors"
+wget -nc https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e7a68bd4-a7f2-46bc-b0ad-6d0049debca7/width=450/00087-4236605638.jpeg  -O "GodPussy1.jpeg"
 
-jq '.["txt2img/Width/value"] = 1024' ui-config.json > temp.json && mv temp.json ui-config.json
-jq '.["txt2img/Height/value"] = 1024' ui-config.json > temp.json && mv temp.json ui-config.json
-jq '.["customscript/sampler.py/txt2img/Sampling steps/value"] = 10' ui-config.json > temp.json && mv temp.json ui-config.json
-jq '.["txt2img/CFG Scale/value"] = 1.5' ui-config.json > temp.json && mv temp.json ui-config.json
-jq '.["txt2img/ADetailer sampler/value"] = "DPM++ SDE"' ui-config.json > temp.json && mv temp.json ui-config.json
-jq '.["customscript/sampler.py/txt2img/Sampling method/value"] = "DPM++ SDE"' ui-config.json > temp.json && mv temp.json ui-config.json
-jq '.["customscript/sampler.py/txt2img/Schedule type/value"] = "Karras"' ui-config.json > temp.json && mv temp.json ui-config.json
+
+
+wget -nc https://civitai.com/api/download/models/128461?type=Model&format=SafeTensor -O "Perfect Eyes XL.safetensors"
+wget -nc https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dff6829a-03e7-4287-ad49-91bfe977aa66/width=450/00024-362273570-grey%20eye,%20close%20up,%20%20_lora_PerfectEyesXL_1.0_%20perfecteyes,%20woman.jpeg  -O "Perfect Eyes XL.jpeg"
+
+
+wget -nc https://civitai.com/api/download/models/190920?type=Model&format=SafeTensor -O "Real Pussy - Lily v5.safetensors"
+wget -nc https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e3b47adf-42ea-46c8-bd2d-814b18b88f50/width=450/00911-2792382906.jpeg -O "Real Pussy - Lily v5.safetensors"
+
+
+# jq '.["txt2img/Width/value"] = 1024' ui-config.json > temp.json && mv temp.json ui-config.json
+# jq '.["txt2img/Height/value"] = 1024' ui-config.json > temp.json && mv temp.json ui-config.json
+# jq '.["customscript/sampler.py/txt2img/Sampling steps/value"] = 10' ui-config.json > temp.json && mv temp.json ui-config.json
+# jq '.["txt2img/CFG Scale/value"] = 1.5' ui-config.json > temp.json && mv temp.json ui-config.json
+# jq '.["txt2img/ADetailer sampler/value"] = "DPM++ SDE"' ui-config.json > temp.json && mv temp.json ui-config.json
+# jq '.["customscript/sampler.py/txt2img/Sampling method/value"] = "DPM++ SDE"' ui-config.json > temp.json && mv temp.json ui-config.json
+# jq '.["customscript/sampler.py/txt2img/Schedule type/value"] = "Karras"' ui-config.json > temp.json && mv temp.json ui-config.json
 
 
