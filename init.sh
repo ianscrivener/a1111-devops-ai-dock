@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# wget -qO- https://raw.githubusercontent.com/ianscrivener/a1111-devops-ai-dock/main/a1111_init_pod.sh | bash
+wget -qO- https://raw.githubusercontent.com/ianscrivener/a1111-devops-ai-dock/main/a1111_custom_settings.sh | bash
 
 wget -qO- https://raw.githubusercontent.com/ianscrivener/a1111-devops-ai-dock/main/a1111_extension.sh | bash
 
@@ -16,17 +16,7 @@ wget -qO- https://raw.githubusercontent.com/ianscrivener/a1111-devops-ai-dock/ma
 
 wget -qO- https://raw.githubusercontent.com/ianscrivener/a1111-devops-ai-dock/main/a1111_models.sh | bash
 
-
-
 # Add MacBook Pro remote Syncthing ID and config Stable Diffusion Output folder
 # syncthing cli config devices add --name "MacBook Pro" --device-id "$SYNCTHING_REMOTE_ID"
 # syncthing cli config folders add --name "Stable Diffusion Output" --path "cd /opt/stable-diffusion-webui/outputs" --device "$SYNCTHING_REMOTE_ID"
-
-
-cd /opt/stable-diffusion-webui/models/adetailer
-wget -nc https://civitai.com/api/download/models/484684 -O "pussy_v41.pt"
-wget -nc https://civitai.com/api/download/models/138918 -O "boobs_v47.pt"
-wget -nc https://civitai.com/api/download/models/149588 -O "nipples.pt"
-wget -nc https://civitai.com/api/download/models/484684 -O "pussy_v41.pt"
-wget -nc https://civitai.com/api/download/models/465360 -O "eyes-individual.pt"
 
