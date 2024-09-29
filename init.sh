@@ -2,7 +2,7 @@
 
 wget -qO- https://raw.githubusercontent.com/ianscrivener/a1111-devops-ai-dock/main/a1111_custom_settings.sh | bash
 
-wget -qO- https://raw.githubusercontent.com/ianscrivener/a1111-devops-ai-dock/main/a1111_extension.sh | bash
+wget -qO- https://raw.githubusercontent.com/ianscrivener/a1111-devops-ai-dock/main/a1111_adetailer.sh | bash
 
 wget -qO- https://raw.githubusercontent.com/ianscrivener/a1111-devops-ai-dock/main/a1111_esrgan.sh | bash
 
