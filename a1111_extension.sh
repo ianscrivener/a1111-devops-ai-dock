@@ -42,14 +42,14 @@ git clone https://github.com/miZyind/sd-webui-latent-couple
 # ControlNet
 git clone https://github.com/Mikubill/sd-webui-controlnet
 
-# git clone https://github.com/light-and-ray/sd-webui-cn-sam-preprocessor
-# git clone https://github.com/Uminosachi/sd-webui-inpaint-anything.git
+git clone https://github.com/light-and-ray/sd-webui-cn-sam-preprocessor
+git clone https://github.com/Uminosachi/sd-webui-inpaint-anything.git
 # git clone https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111
 # git clone https://github.com/adieyal/sd-dynamic-prompts.git
 # git clone https://github.com/s0md3v/sd-webui-roop
 # git clone https://github.com/KohakuBlueleaf/a1111-sd-webui-lycoris
 # git clone https://github.com/IDEA-Research/DWPose
-# git clone https://github.com/Coyote-A/ultimate-upscale-for-automatic1111.git
+git clone https://github.com/Coyote-A/ultimate-upscale-for-automatic1111.git
 # git clone https://github.com/fkunn1326/openpose-editor.git
 
 
