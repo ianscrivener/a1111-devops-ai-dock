@@ -14,6 +14,8 @@ wget -qO- https://raw.githubusercontent.com/ianscrivener/a1111-devops-ai-dock/ma
 
 wget -qO- https://raw.githubusercontent.com/ianscrivener/a1111-devops-ai-dock/main/a1111_embeddings.sh | bash
 
+wget -qO- https://raw.githubusercontent.com/ianscrivener/a1111-devops-ai-dock/main/a1111_extension.sh | bash
+
 wget -qO- https://raw.githubusercontent.com/ianscrivener/a1111-devops-ai-dock/main/a1111_models.sh | bash
 
 # Add MacBook Pro remote Syncthing ID and config Stable Diffusion Output folder
